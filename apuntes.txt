@@ -1,0 +1,6 @@
+docker build -t pokemon .
+
+
+docker run -it -dp 3000:3000 --name contenedor1 pokemon
+
+docker run -dp 3000:3000 -it --name contenedor1 pokemon
